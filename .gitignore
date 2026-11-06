@@ -1,0 +1,38 @@
+# 原始材料保留本地；材料索引仍纳入版本管理
+/材料/原始材料/
+
+# 可重建的提取内容、缓存及排版预览（适用于各任务目录）
+提取内容/
+提取缓存/
+排版检查/
+临时文件/
+缓存/
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.ruff_cache/
+
+# 本机工具配置、依赖及运行环境；保留 .agents/skills
+/.codex/
+/.idea/
+/.vscode/
+/.venv/
+/venv/
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Office 锁文件、编辑器备份及系统杂项
+~$*
+.~lock.*#
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
